@@ -1,0 +1,19 @@
+body {
+  background: #1f2937;
+}
+
+.header {
+  font-family: roboto;
+}
+
+.info {
+  background: white;
+}
+
+.quote {
+  background: #e5e7eb;
+}
+
+.action {
+  background: white;
+}
