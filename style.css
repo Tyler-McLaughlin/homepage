@@ -1,17 +1,58 @@
 body {
   background: #1f2937;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .header {
-  font-family: roboto;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.links {
+  margin-left: auto;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.hero {
+  display: flex;
+}
+
+.hero-main {
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.hero-sub {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 .info {
   background: white;
 }
 
+.info-main {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
 .quote {
   background: #e5e7eb;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: light;
 }
 
 .action {
